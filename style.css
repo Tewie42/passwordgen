@@ -1,25 +1,38 @@
 /* Global Page Style */
 body {
     font-family: Arial, sans-serif;
-    background: #E8FBE8; /* soft mint green */
+    background: #E8FBE8;
     margin: 0;
+    padding: 0;
+    color: #1F4D1F;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+/* Main wrapper to center everything */
+#app-wrapper {
+    width: 100%;
+    max-width: 600px;
     padding: 20px;
-    color: #1F4D1F; /* dark green text */
 }
 
 /* Section Styling */
 section {
-    background: #F9FFF9; /* ultra-light green */
+    background: #F9FFF9;
     padding: 20px;
     margin-bottom: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    border-radius: 16px; /* softer corners */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
 
 /* Headings */
 h2 {
     margin-top: 0;
-    color: #1F6B28; /* darker green */
+    color: #1F6B28;
+    font-weight: 600;
 }
 
 /* Radio Buttons */
@@ -30,6 +43,62 @@ label {
 
 /* Interest Buttons */
 .interest-btn {
-    background: #2E7D32; /* dark green */
+    background: #2E7D32;
     color: white;
-    padding
+    padding: 12px 20px;
+    margin: 8px;
+    border: none;
+    border-radius: 14px; /* softer */
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.2s ease;
+}
+
+.interest-btn:hover {
+    background: #3E9D42;
+    transform: translateY(-2px);
+}
+
+/* Generate Button */
+#generate-btn {
+    background: #1F6B28;
+    color: white;
+    padding: 14px 25px;
+    border: none;
+    border-radius: 14px; /* softer */
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    transition: 0.2s ease;
+}
+
+#generate-btn:hover {
+    background: #2F8C38;
+    transform: translateY(-2px);
+}
+
+/* Password Cards */
+.password-card {
+    background: white;
+    border: 2px solid #2E7D32;
+    padding: 14px;
+    margin: 10px 0;
+    border-radius: 14px; /* softer */
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* New Copy Icon (two overlapping squares) */
+.copy-btn {
+    cursor: pointer;
+    font-size: 22px;
+    color: #1F6B28;
+    transition: 0.2s ease;
+}
+
+.copy-btn:hover {
+    color: #3E9D42;
+    transform: scale(1.1);
+}
