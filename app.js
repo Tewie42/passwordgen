@@ -104,7 +104,7 @@ function addPasswordCard(password) {
 
     div.innerHTML = `
         <span>${password}</span>
-        <span class="copy-btn" onclick="copyPassword('${password}')">📋</span>
+        <span class="copy-btn" onclick="copyPassword('${password}')">▣</span>
     `;
 
     passwordList.appendChild(div);
