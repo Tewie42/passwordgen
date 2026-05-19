@@ -89,6 +89,30 @@ label {
     justify-content: space-between;
     align-items: center;
 }
+/* Footer Styling */
+#main-footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px 0;
+    font-size: 16px;
+    color: #1F4D1F;
+}
+
+#main-footer a {
+    color: #1F6B28;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 8px;
+}
+
+#main-footer a:hover {
+    color: #3E9D42;
+}
+
+#main-footer .divider {
+    color: #2E7D32;
+    padding: 0 5px;
+}
 
 /* New Copy Icon (two overlapping squares) */
 .copy-btn {
