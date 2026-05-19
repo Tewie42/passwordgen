@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Gender Section -->
+    <section id="gender-section">
+        <h2>Select Gender</h2>
+        <label><input type="radio" name="gender" value="male"> Male</label>
+        <label><input type="radio" name="gender" value="female"> Female</label>
+    </section>
+
+    <!-- Interest Section -->
+    <section id="interest-section" style="display:none;">
+        <h2>Select Interest</h2>
+        <div id="interest-options"></div>
+    </section>
+
+    <!-- Brand Section -->
+    <section id="brand-section" style="display:none;">
+        <h2>Select Brand</h2>
+        <select id="brand-select"></select>
+    </section>
+
+    <!-- Generate Button -->
+    <section id="generate-section" style="display:none;">
+        <button id="generate-btn">Generate Passwords</button>
+    </section>
+
+    <!-- Output Section -->
+    <section id="output-section" style="display:none;">
+        <h2>Your Passwords</h2>
+        <div id="password-list"></div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
