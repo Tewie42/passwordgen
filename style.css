@@ -34,7 +34,24 @@ h2 {
     color: #1F6B28;
     font-weight: 600;
 }
+.gender-btn {
+    background: #2E7D32;
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
 
+.gender-btn:hover {
+    background: #3E9D42;
+    transform: translateY(-3px);
+}
 /* Radio Buttons */
 label {
     margin-right: 20px;
