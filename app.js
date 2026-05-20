@@ -30,9 +30,13 @@ const outputSection = document.getElementById("output-section");
 const passwordList = document.getElementById("password-list");
 
 // Gender selection
-document.querySelectorAll("input[name='gender']").forEach(radio => {
-    radio.addEventListener("change", () => {
-        const gender = radio.value;
+document.querySelectorAll(".gender-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+        const gender = btn.dataset.gender;
+        loadInterests(gender);
+    });
+});
+
 
         // Show interest section
         interestSection.style.display = "block";
