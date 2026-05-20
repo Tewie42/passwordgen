@@ -10,24 +10,30 @@
 
 <div id="app-wrapper">
 
-    <!-- Gender Section -->
+    <!-- Gender Selection -->
     <section id="gender-section">
-    <h2>Select Gender</h2>
+        <h2>Select Gender</h2>
 
-    <button class="gender-btn" data-gender="male">👨</button>
-    <button class="gender-btn" data-gender="female">👩</button>
-</section>
+        <button class="gender-btn" data-gender="male">👨</button>
+        <button class="gender-btn" data-gender="female">👩</button>
+    </section>
 
-    <!-- Interest Section -->
+    <!-- Interest Selection -->
     <section id="interest-section" style="display:none;">
         <h2>Select Interest</h2>
         <div id="interest-options"></div>
     </section>
 
-    <!-- Brand Section -->
+    <!-- Brand Selection -->
     <section id="brand-section" style="display:none;">
         <h2>Select Brand</h2>
-        <div id="brand-select"></div>
+        <div id="brand-options" class="brand-grid"></div>
+    </section>
+
+    <!-- Model Selection (Cars & Bikes Only) -->
+    <section id="model-section" style="display:none;">
+        <h2>Select Model</h2>
+        <div id="model-options"></div>
     </section>
 
     <!-- Generate Button -->
@@ -40,18 +46,18 @@
         <h2>Your Passwords</h2>
         <div id="password-list"></div>
     </section>
-    
-<footer id="main-footer">
-    <a href="privacy.html">Privacy Policy</a>
-    <span class="divider">|</span>
-    <a href="terms&conditions.html">Terms & Conditions</a>
-    <span class="divider">|</span>
-    <a href="Contact.html">Contact</a>
-</footer>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+        <a href="privacy.html">Privacy Policy</a>
+        <span class="divider">|</span>
+        <a href="terms.html">Terms & Conditions</a>
+        <span class="divider">|</span>
+        <a href="contact.html">Contact</a>
+    </footer>
 
 </div>
 
 <script src="app.js"></script>
 </body>
 </html>
-
